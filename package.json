@@ -1,0 +1,22 @@
+{
+  "name": "workplan-models",
+  "version": "1.0.0",
+  "description": "workplan models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkgorilla/workplan-models.git"
+  },
+  "author": "Tris Setiawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinkgorilla/workplan-models/issues"
+  },
+  "homepage": "https://github.com/pinkgorilla/workplan-models#readme",
+  "dependencies": {
+    "capital-models": "^1.0.14"
+  }
+}
