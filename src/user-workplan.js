@@ -1,8 +1,8 @@
 'use strict'
+var BaseModel = require('capital-models').BaseModel;
 var Period = require('./period');
-var MongoModel = require('capital-models').MongoModel;
 
-module.exports = class UserWorkplan extends MongoModel{
+module.exports = class UserWorkplan extends BaseModel{
     
     constructor(source){
         super('user-workplan', "1.0.0");

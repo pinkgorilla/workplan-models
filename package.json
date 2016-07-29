@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/pinkgorilla/workplan-models#readme",
   "dependencies": {
-    "capital-models": "^1.0.14"
+    "capital-models": "git+https://github.com/pinkgorilla/capital-models.git"
   }
 }

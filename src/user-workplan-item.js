@@ -1,7 +1,7 @@
-'use strict'
-var MongoModel = require('capital-models').MongoModel;
-
-module.exports = class UserWorkplanItem extends MongoModel {
+'use strict' 
+var BaseModel = require('capital-models').BaseModel;
+ 
+module.exports = class UserWorkplanItem extends BaseModel {
 
     constructor(source) {
         super('user-workplan-item', "1.0.0");
